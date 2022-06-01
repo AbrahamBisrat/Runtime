@@ -84,7 +84,7 @@ public class SystemInfo {
 
         /* For each filesystem root, print some info */
         for (File root : roots) {
-        	sb.append("\n\n");
+        	sb.append("\n");
             sb.append("File system root: ");
             sb.append(root.getAbsolutePath());
             sb.append("\n\n");
